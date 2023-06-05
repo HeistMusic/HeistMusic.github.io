@@ -82,3 +82,10 @@
 .sidebarderecho{
   line-height: normal;
 }
+@media print {
+  /* Aplica estilos solo para la impresión */
+  #ocultar {
+    display: none!important;
+    border: 1px solid black;
+  }
+}
