@@ -89,3 +89,12 @@
     border: 1px solid black;
   }
 }
+a {
+  color: white;
+}
+a#negro{
+  color: black;
+}
+a:hover, a#negro:hover {
+  color: blue;
+}
